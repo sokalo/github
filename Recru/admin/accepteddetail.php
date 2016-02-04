@@ -84,7 +84,7 @@ $result = $conn->query($sql);
                             </div>
                         </div>
                         <!-- Pls Remove -->
-                        <div style="height:auto">
+                        <div style="height:auto;">
 						<form action="acceptedaction.php" method="post">
 						  <table id="datatable" class="table table-striped table-bordered">
                             <tbody>
@@ -356,23 +356,7 @@ $result = $conn->query($sql);
 											<td class="center"><a  href="attachfile.php?filename=<?php echo $row['Attachment']?>">
 																		<?php echo $row['Attachment']?></a></td>
 										</tr>
-										<tr>
-											
-											<td class="center">
-											Process:
-											</td>
-											<td class="center">
-											<select name="process">
-											<option value="Process">Process</option>
-											<option value="Reject">Reject</option>
-											</select>
-												
-											</td>
-										</tr>
-										<tr>
-											
-											<td colspan="2" align="center"><input type="submit" name="btnsubmit" value="Submit" class="btn btn-success"></td>
-										</tr>					
+													
 										<?php
 											}
 										}			

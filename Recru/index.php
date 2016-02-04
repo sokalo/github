@@ -105,7 +105,7 @@ label * {
    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<link rel="stylesheet" id="billio_report_post_icons-css" href="js/flaticon.css" type="text/css" media="all">
+<!--<link rel="stylesheet" id="billio_report_post_icons-css" href="js/flaticon.css" type="text/css" media="all">
 <link rel="stylesheet" id="contact-form-7-css" href="js/styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="essential-grid-plugin-settings-css" href="js/settings.css" type="text/css" media="all">
 <link rel="stylesheet" id="tp-open-sans-css" href="js/css.css" type="text/css" media="all">
@@ -114,17 +114,20 @@ label * {
 <link rel="stylesheet" id="tp-merriweather-css" href="js/css_003.css" type="text/css" media="all">
 <link rel="stylesheet" id="tp-opensans-condensed-css" href="js/css_005.css" type="text/css" media="all">
 <link rel="stylesheet" id="rs-plugin-settings-css" href="js/settings_002.css" type="text/css" media="all">
-<style id="rs-plugin-settings-inline-css" type="text/css">
-.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
-</style>
 <link rel="stylesheet" id="woocommerce-layout-css" href="js/woocommerce-layout.css" type="text/css" media="all">
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="js/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
-<link rel="stylesheet" id="woocommerce-general-css" href="js/woocommerce.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-general-css" href="js/woocommerce.css" type="text/css" media="all">-->
 <link rel="stylesheet" id="billio_report_post_style-css" href="js/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="webfonts-font-css" href="js/webfonts.css" type="text/css" media="all">
 <link rel="stylesheet" id="detheme-vc-css" href="js/plugin_style.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-color-picker-css" href="js/color-picker.css" type="text/css" media="all">
 <link rel="stylesheet" id="styleable-select-style-css" href="js/select-theme-default.css" type="text/css" media="all">
+
+
+<style id="rs-plugin-settings-inline-css" type="text/css">
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+
 <!--[if IE 9]>
 <link rel='stylesheet' id='billio-style-ie-css'  href='http://umgroups.com/cambodia/wp-content/themes/billio/css/ie9.css' type='text/css' media='all' />
 <![endif]-->
@@ -133,8 +136,8 @@ label * {
 <style type="text/css">
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/style.css);
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/bootstrap.css);
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/flaticon.css);
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/socialicons/flaticon.css);
+/*@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/flaticon.css);
+@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/socialicons/flaticon.css);*/
 @import url(//fonts.googleapis.com/css?family=Open+Sans:100,300,400,300italic,600,700&#038;subset=latin);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:100,300,400,300italic,400italic,600,700,800);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,700italic);
@@ -142,14 +145,14 @@ label * {
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/billio.css);
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/mystyle.css);
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/customstyle.css);
-section#banner-section {background: url(js/career.jpeg) no-repeat 50% 50%; max-height: 100%; background-size: 100% auto;
+section#banner-section {background: url(js/mobile_recruiting.jpg) no-repeat 50% 50%; max-height: 100%; background-size: 100% auto;
 min-height:500px;
 height:500px;}
 div#head-page #dt-menu ul li.logo-desktop a {margin-top:19px;}
 </style>
 <link rel="shortcut icon" href="js/small-logo1.png">
 <style type="text/css">
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/iconfonts/social/flaticon.css);
+/*@import url(http://umgroups.com/cambodia/wp-content/themes/billio/iconfonts/social/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/industry/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/police/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/building-trade/flaticon.css);
@@ -158,7 +161,7 @@ div#head-page #dt-menu ul li.logo-desktop a {margin-top:19px;}
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/construction/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/logistics-delivery/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/miu-icons/flaticon.css);
-@import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/stationery/flaticon.css);
+@import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/stationery/flaticon.css);*/
 </style>
 <script type="text/javascript" src="js/jquery_005.js"></script>
 <script type="text/javascript" src="js/jquery-migrate.js"></script>
@@ -509,6 +512,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","
 			</br>
 			</br>
 			</br>
+            </br>
+            </br>
+            </br>
 			<!--<div class="banner-title">  <h1 class="page-title">Job Application</h1></div>-->
 			<div class="breadcrumbs"><span><a href="#" title="Home">Home</a></span>&nbsp;/&nbsp;
 			<span><a href="#" title="Career">Career</a></span>&nbsp;/&nbsp;
@@ -857,7 +863,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","
 		</div>
 		<div class="col-sm-4"><h3>Read me</h3>
 					<p>Welcome to UMG recruitment program. Please ensure that everything you write in this form is as accurate as possible and backed by proper document.</p>
-			<p>For the attachment, <u> please put your latest education certificate, Copy of your NRC/Passport, and other supporthing document</u> and <b>attached as single ZIP file.</b></p>
+			<p>For the attachment, <u> please put your latest education certificate, Copy of your NRC/Passport, <b>must inculde the reference letter from previous Company</b> and other supporthing document</u> and <b>attached as single ZIP file.</b></p>
 			<p>We will review all the incoming application and inform you by email if you are selected to the next recruitment process. Please ensure you input the right email address.</p>
 		</div>
 	</div>
@@ -929,15 +935,15 @@ var wc_add_to_cart_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","
 var _wpcf7 = {"loaderUrl":"http:\/\/umgroups.com\/cambodia\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
 /* ]]> */
 </script>
-<script type="text/javascript" src="js/scripts.js"></script>
-<script type="text/javascript" src="js/jquery.js"></script>
+
+<!--<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>-->
 <script type="text/javascript">
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/cambodia\/?dtcareer=business-development&wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="js/woocommerce.js"></script>
-<script type="text/javascript" src="js/jquery_007.js"></script>
+
 <script type="text/javascript">
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/cambodia\/?dtcareer=business-development&wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
@@ -953,10 +959,13 @@ var wc_cart_fragments_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php
 <script type="text/javascript" src="js/jquery_002.js"></script>
 <script type="text/javascript" src="js/career.js"></script>
 <script type="text/javascript" src="js/js_composer_front.js"></script>
-<script type="text/javascript" src="js/jquery_006.js"></script>
-<script type="text/javascript">                jQuery(document).ready(function(){
+<script type="text/javascript" src="js/jquery_006.js"></script> 
+<script type="text/javascript"> 
+   jQuery(document).ready(function()
+   {
 
-});            </script>
+   });
+</script>
 <style type="text/css">#megamenu_bg_12906 {background: url(http://umgroups.com/cambodia/wp-content/uploads/2015/11/mega-menus-bg-haevy02.jpg)   no-repeat;}
 @media ( max-width:990px ) { #megamenu_bg_12906 {background: none;}}
 .vc_custom_1429088509675{background-color: #ffffff ;}
@@ -1060,113 +1069,7 @@ function checkdate()
 		return true;
 	}
 }
-
-function myFunction() {
-							var table = document.getElementById("myTable");
-							var row = table.insertRow(0);
-							var cell1 = row.insertCell(0);
-							var cell2 = row.insertCell(1);
-							var cell3 = row.insertCell(2);
-							var cell4 = row.insertCell(3);
-							cell1.innerHTML = "<input type='text' name='highschool[0]' style='height:45px;'>";
-							cell2.innerHTML = "<input type='date' class='startdate' name='highschool[1]' style='height:45px;'>";
-							cell3.innerHTML = "<input type='date' class='enddate' name='highschool[2]' style='height:45px;'>";
-							cell4.innerHTML = "<input type='text' name='highschool[3]' style='height:45px;'>";
-						}
-						function myDeleteFunction() {
-							document.getElementById("myTable").deleteRow(0);
-						}
-// for education uni
-function myFunction1() {
-							var table = document.getElementById("myTable1");
-							var row = table.insertRow(0);
-							var cell1 = row.insertCell(0);
-							var cell2 = row.insertCell(1);
-							var cell3 = row.insertCell(2);
-							var cell4 = row.insertCell(3);
-							cell1.innerHTML = "<input type='text' name='uni[0]' style='height:45px;'>";
-							cell2.innerHTML = "<input type='date' class='startdate'   name='uni[1]' style='height:45px;'>";
-							cell3.innerHTML = "<input type='date' class='enddate' name='uni[2]' style='height:45px;'>";
-							cell4.innerHTML = "<input type='text' name='uni[3]' style='height:45px;'>";
-						}
-						function myDeleteFunction1() {
-							document.getElementById("myTable1").deleteRow(0);
-						}
-// for education others
-function myFunction2() {
-							var table = document.getElementById("myTable2");
-							var row = table.insertRow(0);
-							var cell1 = row.insertCell(0);
-							var cell2 = row.insertCell(1);
-							var cell3 = row.insertCell(2);
-							var cell4 = row.insertCell(3);
-							cell1.innerHTML = "<input type='text' name='other[0]' style='height:45px;'>";
-							cell2.innerHTML = "<input type='date' class='startdate' name='other[1]' style='height:45px;'>";
-							cell3.innerHTML = "<input type='date' class='enddate' name='other[2]' style='height:45px;'>";
-							cell4.innerHTML = "<input type='text' name='other[3]' style='height:45px;'>";
-						}
-						function myDeleteFunction2() {
-							document.getElementById("myTable2").deleteRow(0);
-						}
-
-// for foreign lanaguage
-function myFunction3() {
-							var table = document.getElementById("myTable3");
-							var row = table.insertRow(0);
-							var cell1 = row.insertCell(0);
-							var cell2 = row.insertCell(1);
-							var cell3 = row.insertCell(2);
-							var cell4 = row.insertCell(3);
-							cell1.innerHTML = "<input type='text' name='foreignlanguage[0]'>";
-							cell2.innerHTML = "<select name='foreignlanguage[1]' style='height:45px;'><option>Beginner</option><option>Conversational</option><option>Business</option><option>Fluent</option></select>";
-													
-							cell3.innerHTML = "<select name='foreignlanguage[2]' style='height:45px;'><option>Beginner</option><option>Conversational</option><option>Business</option><option>Fluent</option></select>";
-							cell4.innerHTML = "<select name='foreignlanguage[3]' style='height:45px;'><option>Beginner</option><option>Conversational</option><option>Business</option><option>Fluent</option></select>";
-						}
-						function myDeleteFunction3() {
-							document.getElementById("myTable3").deleteRow(0);
-						}
-// for working experience
-function myFunction4() {
-							var table = document.getElementById("myTable4");
-							var row = table.insertRow(0);
-							var cell1 = row.insertCell(0);
-							var cell2 = row.insertCell(1);
-							var cell3 = row.insertCell(2);
-							var cell4 = row.insertCell(3);
-							var cell5 = row.insertCell(4);
-							cell1.innerHTML = "<input type='text' name='workexperience[0]'>";
-							cell2.innerHTML = "<input type='text' name='workexperience[1]'>";
-							cell3.innerHTML = "<input type='text' name='workexperience[2]'>";
-							cell4.innerHTML = "<input type='text' name='workexperience[3]'>";
-							cell5.innerHTML = "<input type='text' name='workexperience[5]'>";
-						}
-						function myDeleteFunction4() {
-							document.getElementById("myTable4").deleteRow(0);
-						}
-// for references
-
-						function myFunction5() {
-							var table = document.getElementById("myTable5");
-							var row = table.insertRow(0);
-							var cell1 = row.insertCell(0);
-							var cell2 = row.insertCell(1);
-							var cell3 = row.insertCell(2);
-							var cell4 = row.insertCell(3);
-							var cell5 = row.insertCell(4);
-							
-							cell1.innerHTML = "<input type='text' name='reference[0]'>";
-							cell2.innerHTML = "<input type='text' name='reference[1]'>";
-							cell3.innerHTML = "<input type='text' name='reference[2]'>";
-							cell4.innerHTML = "<input type='text' name='reference[3]'>";
-							cell5.innerHTML = "<input type='text' name='reference[4]'>";
-						
-						}
-						function myDeleteFunction5() {
-							document.getElementById("myTable5").deleteRow(0);
-						}
-						
-					</script>
+</script>
 
 <script src="js/modernizr.js"></script>
 <script>Modernizr.load({

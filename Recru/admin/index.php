@@ -4,28 +4,64 @@ if(!isset($_SESSION["Username"])){ //if login in session is not set
     header("Location: login.php");
 }
 include '../connect.php';
-
+//all count
 $sqlall = "SELECT JobNo FROM tblapplicationform";
 $resultall = $conn->query($sqlall);
 $countall = $resultall->num_rows;
-
-
-
+//all unprocess count
 $sql = "SELECT JobNo FROM tblapplicationform where status='unprocessed'";
 $result = $conn->query($sql);
 $countunprocess = $result->num_rows;
+//all process count 
 
-$sqlprocess = "SELECT JobNo FROM tblapplicationform where status !='unprocessed' and status !='Reject'";
+$sqlprocess = "SELECT JobNo FROM tblapplicationform where status !='unprocessed' and status !='Reject' and status !='recommend'";
 $resultprocess = $conn->query($sqlprocess);
 $countprocess = $resultprocess->num_rows;
-
-$sqlaccepted = "SELECT JobNo FROM tblapplicationform where status ='accepted'";
+//all accept count
+$sqlaccepted = "SELECT JobNo FROM tblapplicationform where status ='recommend'";
 $resultaccepted = $conn->query($sqlaccepted);
 $countaccepted = $resultaccepted->num_rows;
-
+//all reject count
 $sqlreject = "SELECT JobNo FROM tblapplicationform where status ='Reject'";
 $resultreject = $conn->query($sqlreject);
 $countreject = $resultreject->num_rows;
+//unprocess manager  and supervisor count
+$sqlmanager = "SELECT JobNo FROM tblapplicationform where level ='manager' and status='unprocessed'";
+$resultmanager = $conn->query($sqlmanager);
+$countmanager = $resultmanager->num_rows;
+
+$sqlsupervisor = "SELECT JobNo FROM tblapplicationform where level ='supervisor' and status='unprocessed'";
+$resultsupervisor = $conn->query($sqlsupervisor);
+$countsupervisor = $resultsupervisor->num_rows;
+// process super and manager count
+$sqlpromanager = "SELECT JobNo FROM tblapplicationform where status !='unprocessed' and status !='Reject' and status !='recommend' and level='manager'";
+$resultpromanger = $conn->query($sqlpromanager);
+$countpromanager = $resultpromanger->num_rows;
+
+$sqlprosupervisor = "SELECT JobNo FROM tblapplicationform where status !='unprocessed' and status !='Reject' and status !='recommend' and level='supervisor'";
+$resultprosupervisor = $conn->query($sqlprosupervisor);
+$countprosupervisor = $resultprosupervisor->num_rows;
+
+
+//accept supervisor and manager count
+
+$sqlremanager = "SELECT JobNo FROM tblapplicationform where status ='recommend' and level='manager'";
+$resultremanager = $conn->query($sqlremanager);
+$countremanager = $resultremanager->num_rows;
+
+$sqlresupervisor= "SELECT JobNo FROM tblapplicationform where status ='recommend'  and level='supervisor'";
+$resultresupervisor = $conn->query($sqlresupervisor);
+$countresupervisor = $resultresupervisor->num_rows;
+
+
+//reject supervisor and manager count
+$sqlrejmanager = "SELECT JobNo FROM tblapplicationform where status ='Reject' and level='manager'";
+$resultrejmanager = $conn->query($sqlrejmanager);
+$countrejmanager = $resultrejmanager->num_rows;
+
+$sqlrejsupervisor= "SELECT JobNo FROM tblapplicationform where status ='Reject'  and level='supervisor'";
+$resultrejsupervisor = $conn->query($sqlrejsupervisor);
+$countrejsupervisor = $resultrejsupervisor->num_rows;
 
 ?>
 <!DOCTYPE html>
@@ -43,7 +79,7 @@ $countreject = $resultreject->num_rows;
         <!-- Base Css Files -->
         <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-        <!-- Font Icons -->
+        <!-- Font Icons --> 
         <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
         <link href="assets/ionicon/css/ionicons.min.css" rel="stylesheet" />
         <link href="css/material-design-iconic-font.min.css" rel="stylesheet">
@@ -84,7 +120,7 @@ $countreject = $resultreject->num_rows;
 
             <!-- ============================================================== -->
             <!-- Start right Content here -->
-            <!-- ============================================================== -->                      
+            <!-- ================================================== ============ -->                      
             <div class="content-page">
                 <!-- Start content -->
                 <div class="content">
@@ -105,20 +141,17 @@ $countreject = $resultreject->num_rows;
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-lg-3">
                                 <div class="mini-stat clearfix bx-shadow">
-                                    <span class="mini-stat-icon bg-info"><i class="ion-android-contacts"></i></span>
-                                    <div class="mini-stat-info text-right text-muted">
-                                        <span class="counter"><?php echo $countunprocess; ?> </span>
-                                        Unprocessed
-                                    </div>
-                                    <div class="tiles-progress">
-                                        <div class="m-t-20">
-                                          <h5 class="text-uppercase">Unprocessed<span class="pull-right"><?php echo $unprocesspercent = ($countunprocess / $countall)* 100; ?> % </span></h5>
-                                            <div class="progress progress-sm m-0">
-                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $unprocesspercent?>%;"><span class="sr-only">% Complete</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   <span class="mini-stat-icon bg-info"><i class="ion-android-contacts"></i></span>
+                                   
+                                   <div class="mini-stat-info text-right text-muted">
+                                       <span class="counter"><?php echo $countunprocess; ?> </span>
+                                       Unprocessed
+                                   </div>
+                                   <div class="tiles-progress">
+                                   </br>
+                                   <p>Manager - <?php  echo $countmanager; ?></p>
+                                   <p>Supervisor - <?php echo  $countsupervisor; ?></p>
+                                   </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-lg-3">
@@ -129,14 +162,10 @@ $countreject = $resultreject->num_rows;
                                         On Process
                                     </div>
                                     <div class="tiles-progress">
-                                        <div class="m-t-20">
-                                            <h5 class="text-uppercase">On Progress <span class="pull-right"><?php echo $processpercent = ($countprocess / $countall)* 100; ?> %</span></h5>
-                                            <div class="progress progress-sm m-0">
-                                                <div class="progress-bar progress-bar-purple" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $processpercent?>%">
-                                                    <span class="sr-only">90% Complete</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                     </br>
+                                    <p>Manager - <?php  echo $countpromanager; ?></p>
+                                    <p>Supervisor - <?php echo  $countprosupervisor; ?></p>
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -148,16 +177,11 @@ $countreject = $resultreject->num_rows;
                                         <span class="counter"><?php echo $countaccepted; ?></span>
                                         Accepted
                                     </div>
-                                    <div class="tiles-progress">
-                                        <div class="m-t-20">
-                                            <h5 class="text-uppercase">Accepted <span class="pull-right"><?php echo $acceptpercent = ($countaccepted/ $countall)* 100; ?> %</span></h5>
-                                            <div class="progress progress-sm m-0">
-                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $acceptpercent?>%;">
-                                                    <span class="sr-only">60% Complete</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                   <div class="tiles-progress">
+                                    </br>
+                                    <p>Manager - <?php  echo $countremanager; ?></p>
+                                    <p>Supervisor - <?php echo  $countresupervisor; ?></p>
+                                   </div>
                                 </div>
                             </div>
 
@@ -169,14 +193,10 @@ $countreject = $resultreject->num_rows;
                                         Rejected
                                     </div>
                                     <div class="tiles-progress">
-                                        <div class="m-t-20">
-                                            <h5 class="text-uppercase">Rejected <span class="pull-right"><?php echo $rejectpercent = ($countreject/ $countall)* 100; ?> %</span></h5>
-                                            <div class="progress progress-sm m-0">
-                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $rejectpercent?>%;">
-                                                    <span class="sr-only">57% Complete</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    </br>
+                                    <p>Manager - <?php  echo $countrejmanager; ?></p>
+                                    <p>Supervisor - <?php echo  $countrejsupervisor; ?></p>
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -192,36 +212,9 @@ $countreject = $resultreject->num_rows;
                                     <div class="panel-body">
                                     
                                         <div class="row">
-                                            <div class="col-sm-7">
-                                                <div class="row">
-                                                    <div class="col-xs-6 text-center">
-                                                        <canvas id="partly-cloudy-day" width="115" height="115"></canvas>
-                                                    </div>
-                                                    <div class="col-xs-6">
-                                                        <h2 class="m-t-0 text-white"><b>32°</b></h2>
-                                                        <p class="text-white">Partly cloudy</p>
-                                                        <p class="text-white">15km/h - 37%</p>
-                                                    </div>
-                                                </div><!-- End row -->
-                                            </div>
+                                          
                                             <div class="col-sm-5">
-                                                <div class="row">
-                                                    <div class="col-xs-4 text-center">
-                                                        <h4 class="text-white m-t-0">SAT</h4>
-                                                        <canvas id="cloudy" width="35" height="35"></canvas>
-                                                        <h4 class="text-white">30<i class="wi-degrees"></i></h4>
-                                                    </div>
-                                                    <div class="col-xs-4 text-center">
-                                                        <h4 class="text-white m-t-0">SUN</h4>
-                                                        <canvas id="wind" width="35" height="35"></canvas>
-                                                        <h4 class="text-white">28<i class="wi-degrees"></i></h4>
-                                                    </div>
-                                                    <div class="col-xs-4 text-center">
-                                                        <h4 class="text-white m-t-0">MON</h4>
-                                                        <canvas id="clear-day" width="35" height="35"></canvas>
-                                                        <h4 class="text-white">33<i class="wi-degrees"></i></h4>
-                                                    </div>
-                                                </div><!-- end row -->
+                                         
                                             </div>
                                         </div><!-- end row -->
                                     </div><!-- panel-body -->
@@ -237,39 +230,7 @@ $countreject = $resultreject->num_rows;
                                     <div class="panel-body">
                                     
                                         <div class="row">
-                                            <div class="col-sm-7">
-                                                <div class="">
-                                                    <div class="row">
-                                                        <div class="col-xs-6 text-center">
-                                                            <canvas id="snow" width="115" height="115"></canvas>
-                                                        </div>
-                                                        <div class="col-xs-6">
-                                                            <h2 class="m-t-0 text-white"><b> 23°</b></h2>
-                                                            <p class="text-white">Partly cloudy</p>
-                                                            <p class="text-white">15km/h - 37%</p>
-                                                        </div>
-                                                    </div><!-- end row -->
-                                                </div><!-- weather-widget -->
-                                            </div>
-                                            <div class="col-sm-5">
-                                                <div class="row">
-                                                    <div class="col-xs-4 text-center">
-                                                        <h4 class="text-white m-t-0">SAT</h4>
-                                                        <canvas id="sleet" width="35" height="35"></canvas>
-                                                        <h4 class="text-white">30<i class="wi-degrees"></i></h4>
-                                                    </div>
-                                                    <div class="col-xs-4 text-center">
-                                                        <h4 class="text-white m-t-0">SUN</h4>
-                                                        <canvas id="fog" width="35" height="35"></canvas>
-                                                        <h4 class="text-white">28<i class="wi-degrees"></i></h4>
-                                                    </div>
-                                                    <div class="col-xs-4 text-center">
-                                                        <h4 class="text-white m-t-0">MON</h4>
-                                                        <canvas id="partly-cloudy-night" width="35" height="35"></canvas>
-                                                        <h4 class="text-white">33<i class="wi-degrees"></i></h4>
-                                                    </div>
-                                                </div><!-- End row -->
-                                            </div> <!-- col-->
+                                      
                                         </div><!-- End row -->
                                     </div><!-- panel-body -->
                                 </div><!-- panel -->
@@ -278,6 +239,43 @@ $countreject = $resultreject->num_rows;
                             </div><!-- /.col-md-6 -->
                         </div> <!-- End row -->   
 
+
+                        <!-- to add photo -->
+                         <div class="row">
+                                    
+                            <div class="col-lg-6">
+                                
+                                <!-- BEGIN WEATHER WIDGET 1 -->
+                                <div class="panel bg-info">
+                                    <div class="panel-body">
+                                    
+                                        <div class="row">
+                                          
+                                            <div class="col-sm-5">
+                                            <img src="images/entertaiment.jpg" width="460px" height="250px">
+                                            </div>
+                                        </div><!-- end row -->
+                                    </div><!-- panel-body -->
+                                </div><!-- panel-->
+                                <!-- END Weather WIDGET 1 -->
+                                
+                            </div><!-- End col-md-6 -->
+
+                            <div class="col-lg-6">
+                                
+                                <!-- WEATHER WIDGET 2 -->
+                                <div class="panel bg-success">
+                                    <div class="panel-body">
+                                    
+                                        <div class="row">
+                                        <img src="images/it.jpg" width="490px" height="250px">
+                                        </div><!-- End row -->
+                                    </div><!-- panel-body -->
+                                </div><!-- panel -->
+                                <!-- END WEATHER WIDGET 2 -->
+                                    
+                            </div><!-- /.col-md-6 -->
+                        </div> <!-- End row -->       
                             <!-- TODO -->
 
                         </div> <!-- end row -->

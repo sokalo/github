@@ -64,6 +64,7 @@ else{
 <meta property="fb:app_id" content="799143140148346">
 <link rel="alternate" type="application/rss+xml" title="UMG Cambodia » Feed" href="http://umgroups.com/cambodia/?feed=rss2">
 <link rel="alternate" type="application/rss+xml" title="UMG Cambodia » Comments Feed" href="http://umgroups.com/cambodia/?feed=comments-rss2">
+<link rel="shortlink" href="http://umgroups.com/cambodia/?p=12444">
 		<style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -78,7 +79,7 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel="stylesheet" id="billio_report_post_icons-css" href="js/flaticon.css" type="text/css" media="all">
+<!--<link rel="stylesheet" id="billio_report_post_icons-css" href="js/flaticon.css" type="text/css" media="all">
 <link rel="stylesheet" id="contact-form-7-css" href="js/styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="essential-grid-plugin-settings-css" href="js/settings.css" type="text/css" media="all">
 <link rel="stylesheet" id="tp-open-sans-css" href="js/css.css" type="text/css" media="all">
@@ -86,43 +87,51 @@ img.emoji {
 <link rel="stylesheet" id="tp-droid-serif-css" href="js/css_004.css" type="text/css" media="all">
 <link rel="stylesheet" id="tp-merriweather-css" href="js/css_003.css" type="text/css" media="all">
 <link rel="stylesheet" id="tp-opensans-condensed-css" href="js/css_005.css" type="text/css" media="all">
-<link rel="stylesheet" id="rs-plugin-settings-css" href="js/settings_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="js/settings_002.css" type="text/css" media="all">-->
 <style id="rs-plugin-settings-inline-css" type="text/css">
 .tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
 </style>
+<!--
 <link rel="stylesheet" id="woocommerce-layout-css" href="js/woocommerce-layout.css" type="text/css" media="all">
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="js/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
 <link rel="stylesheet" id="woocommerce-general-css" href="js/woocommerce.css" type="text/css" media="all">
+
+
+<link rel="stylesheet" id="wp-color-picker-css" href="js/color-picker.css" type="text/css" media="all">
+<link rel="stylesheet" id="styleable-select-style-css" href="js/select-theme-default.css" type="text/css" media="all">
+
+
+
 <link rel="stylesheet" id="billio_report_post_style-css" href="js/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="webfonts-font-css" href="js/webfonts.css" type="text/css" media="all">
 <link rel="stylesheet" id="detheme-vc-css" href="js/plugin_style.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-color-picker-css" href="js/color-picker.css" type="text/css" media="all">
-<link rel="stylesheet" id="styleable-select-style-css" href="js/select-theme-default.css" type="text/css" media="all">
 <!--[if IE 9]>
 <link rel='stylesheet' id='billio-style-ie-css'  href='http://umgroups.com/cambodia/wp-content/themes/billio/css/ie9.css' type='text/css' media='all' />
-<![endif]-->
+<![endif]
 <link rel="stylesheet" id="js_composer_front-css" href="js/js_composer.css" type="text/css" media="all">
-<link rel="stylesheet" id="js_composer_custom_css-css" href="js/custom.css" type="text/css" media="screen">
+<link rel="stylesheet" id="js_composer_custom_css-css" href="js/custom.css" type="text/css" media="screen">-->
 <style type="text/css">
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/style.css);
+
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/bootstrap.css);
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/socialicons/flaticon.css);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:100,300,400,300italic,600,700&#038;subset=latin);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:100,300,400,300italic,400italic,600,700,800);
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,700italic);
-@import url(//fonts.googleapis.com/css?family=Merriweather:100,300,400,300italic,400italic,600,700);
+/*@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/flaticon.css);
+
+@import url(http://umgroups.com/cambodia/wp-content/themes/billio/style.css);
+@import url(//fonts.googleapis.com/css?family=Merriweather:100,300,400,300italic,400italic,600,700);*/
 @import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/billio.css);
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/mystyle.css);
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/customstyle.css);
-section#banner-section {background: url(js/career.jpeg) no-repeat 50% 50%; max-height: 100%; background-size: cover;
+/*@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/mystyle.css);
+@import url(http://umgroups.com/cambodia/wp-content/themes/billio/css/customstyle.css);*/
+section#banner-section {background: url(js/mobile_recruiting.jpg) no-repeat 50% 50%; max-height: 100%; background-size: cover;
 min-height:400px;
 height:400px;}
 div#head-page #dt-menu ul li.logo-desktop a {margin-top:19px;}
 </style>
-<link rel="shortcut icon" type="image/png" href="js/small-logo1.png><!--http://umgroups.com/cambodia/wp-content/uploads/2015/11/favicon.png">-->
+<link rel="shortcut icon" type="image/png" href="js/small-logo1.png><http://umgroups.com/cambodia/wp-content/uploads/2015/11/favicon.png"> 
 <style type="text/css">
-@import url(http://umgroups.com/cambodia/wp-content/themes/billio/iconfonts/social/flaticon.css);
+/*@import url(http://umgroups.com/cambodia/wp-content/themes/billio/iconfonts/social/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/industry/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/police/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/building-trade/flaticon.css);
@@ -131,23 +140,23 @@ div#head-page #dt-menu ul li.logo-desktop a {margin-top:19px;}
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/construction/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/logistics-delivery/flaticon.css);
 @import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/miu-icons/flaticon.css);
-@import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/stationery/flaticon.css);
+@import url(http://umgroups.com/cambodia/wp-content/plugins/billio_icon_addon/iconfonts/stationery/flaticon.css);*/
 </style>
-<script type="text/javascript" src="js/jquery_005.js"></script>
+<!--<script type="text/javascript" src="js/jquery_005.js"></script>
 <script type="text/javascript" src="js/jquery-migrate.js"></script>
 <script type="text/javascript" src="js/report.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/lightbox.js"></script>
 <script type="text/javascript" src="js/jquery_004.js"></script>
 <script type="text/javascript" src="js/jquery_009.js"></script>
-<script type="text/javascript" src="js/jquery_008.js"></script>
+<script type="text/javascript" src="js/jquery_008.js"></script>-->
 <script type="text/javascript">
 /* <![CDATA[ */
 var wc_add_to_cart_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/cambodia\/?dtcareer=business-development&wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="js/add-to-cart.js"></script>
-<script type="text/javascript" src="js/woocommerce-add-to-cart.js"></script>
+<!--<script type="text/javascript" src="js/add-to-cart.js"></script>
+<script type="text/javascript" src="js/woocommerce-add-to-cart.js"></script>-->
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://umgroups.com/cambodia/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://umgroups.com/cambodia/wp-includes/wlwmanifest.xml"> 
 <link rel="prev" title="Marketing" href="http://umgroups.com/cambodia/?dtcareer=marketing">
@@ -156,69 +165,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","
 <meta name="generator" content="WooCommerce 2.4.10">
 <link rel="canonical" href="http://umgroups.com/cambodia/?dtcareer=business-development">
 <link rel="shortlink" href="http://umgroups.com/cambodia/?p=12444">
-		<script type="text/javascript">
-			jQuery(document).ready(function() {
-				// CUSTOM AJAX CONTENT LOADING FUNCTION
-				var ajaxRevslider = function(obj) {
-				
-					// obj.type : Post Type
-					// obj.id : ID of Content to Load
-					// obj.aspectratio : The Aspect Ratio of the Container / Media
-					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
-					
-					var content = "";
 
-					data = {};
-					
-					data.action = 'revslider_ajax_call_front';
-					data.client_action = 'get_slider_html';
-					data.token = 'f3068ad0a0';
-					data.type = obj.type;
-					data.id = obj.id;
-					data.aspectratio = obj.aspectratio;
-					
-					// SYNC AJAX REQUEST
-					jQuery.ajax({
-						type:"post",
-						url:"http://umgroups.com/cambodia/wp-admin/admin-ajax.php",
-						dataType: 'json',
-						data:data,
-						async:false,
-						success: function(ret, textStatus, XMLHttpRequest) {
-							if(ret.success == true)
-								content = ret.data;								
-						},
-						error: function(e) {
-							console.log(e);
-						}
-					});
-					
-					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
-					 return content;						 
-				};
-				
-				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
-				var ajaxRemoveRevslider = function(obj) {
-					return jQuery(obj.selector+" .rev_slider").revkill();
-				};
 
-				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
-				var extendessential = setInterval(function() {
-					if (jQuery.fn.tpessential != undefined) {
-						clearInterval(extendessential);
-						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
-							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
-							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
-							// func: the Function Name which is Called once the Item with the Post Type has been clicked
-							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
-							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
-						}
-					}
-				},30);
-			});
-			
-		
-		</script>
+	
 		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://umgroups.com/cambodia/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://umgroups.com/cambodia/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style type="text/css">.esgbox-margin{margin-right:0px;}</style></head>
 <body class="single single-dtcareer postid-12444 dt_custom_body wpb-js-composer js-comp-ver-4.7.4 vc_responsive">
@@ -255,6 +204,14 @@ var wc_add_to_cart_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","
 <div class="container no_subtitle">
 	<div class="row">
 		<div class="col-xs-12">
+		</br>
+			</br>
+			</br>
+			</br>
+			</br>
+            </br>
+            </br>
+            </br>
 <div class="breadcrumbs"><span><a href="#" title="Home">Home</a></span>&nbsp;/&nbsp;
 <span><a href="#" title="Exam">Exam</a></span>&nbsp;/&nbsp;
 <span class="current">Question</span></div>			</div>
@@ -320,8 +277,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","
 				    <label for="note">Quick Note:</label>
 				    <textarea class="form-control" name="note" rows="5"></textarea>
 				    <p class="help-block">Type a quick message directed to your 
-friend. Please avoid content that could be considered as spam as this 
-could result in a ban from the site.</p>
+						friend. Please avoid content that could be considered as spam as this 
+						could result in a ban from the site.</p>
 				  </div>
 				  <button type="submit" class="btn btn-color-secondary">Send Message</button>
 				  <input name="career_id" id="career_id" value="12444" type="hidden">
@@ -339,12 +296,13 @@ could result in a ban from the site.</p>
 				<div class="col-xs-12">
 					
 				<!--	<table width="20%" align="center">-->
-		<form  action="answer_action2.php" method="post" enctype="multipart/form-data">
+		<form name="oForm" action="answer_action2.php" method="post" enctype="multipart/form-data">
+		<!--	<form name="oForm" action="#" method="post" enctype="multipart/form-data">-->
 			<!--<th colspan="2" align="left"><h2>APPLICATION FORM</h3></th>-->
 		<ul class="career-detail-list">
 		
 		<div>
-		                                            <table id="datatable" class="table table-striped table-bordered">
+		                                            <table id="datatable" class="table table-striped table-bordered" style="height : 250px;" width="100%">
 													<thead>
 													<th><label for="job-position">Question</label></th>
 													<th><label for="job-position">Answer</label></th>
@@ -353,26 +311,26 @@ could result in a ban from the site.</p>
 													
 													<input type="hidden" name="jobno" value="<?php echo $JNo ?>">
 												
-                                                    <tbody>
+                                                    <tbody id ="tbquestion">
                                                       	<?php
 														if ($result1==null)
 														{
 															?>
 															<script>
 															
-															window.location="warning.php"
+															window.location="warning.php";
 															</script>
 															<?php
 															//echo "<h1>Your Link is Expire</h1>";
 														}
-														else if ($result1->num_rows > 0) 
+														else if ($result1->num_rows > 0) 	
 														{
 															$x=1;	
 															$count=0;
 															while($row = $result1->fetch_assoc()) 
 															{						
-																echo '<tr><td class="center">'.$x.".".$row['Question'].'<input type="text" name="qid[]" value="'.$row["QuestionID"].'" hidden>'.'</td>';
-																echo '<td class="center">'.'<textarea name="answer[]" col="150" row="5" style="width:400px;"></textarea>'.'</td>';
+																echo '<tr class="'.$row.'"><td class="center">'.$x.".".$row['Question'].'<input type="text" name="qid[]" value="'.$row["QuestionID"].'" hidden>'.'</td>';
+																echo '<td class="center">'.'<textarea name="answer[]" col="150" id="answer" row="5" style="width:400px;"></textarea>'.'</td>';
 														
 																echo '</tr>';
 																
@@ -393,7 +351,7 @@ could result in a ban from the site.</p>
 												</table>
 		</div>
 		<div 
-			<div class="col-xs-12 col-sm-8 career-action-button"><input type="submit" name="btnapply" id="btnapply" value="Submit" class="btn btn-color-secondary">
+			<div class="col-xs-12 col-sm-8 career-action-button"><button id="previous" type="button" onclick="fback(); return false;" class="btn btn-color-third" style="background-color : #00FF00;">Previous</button>&nbsp;<button id="next" type="button" onclick="fnext();return false;" class="btn btn-color-fourth" style="background-color : #00FF00;">Next</button>&nbsp;<input type="submit" name="btnapply" id="btnapply" value="Submit" class="btn btn-color-secondary pull-right">
 			</div>
 		</div>
 		</ul>
@@ -420,7 +378,7 @@ could result in a ban from the site.</p>
 
 </div>
 <div class="box-container vc_row wpb_row vc_row-fluid vc_row-fluid  footer-on-dark-bg vc_custom_1429091507102"><div class="container dt-container"><div class="row">
-	<div class="vc_col-sm-5 wpb_column column_container vc_custom_1429092087166">
+	<div class="vc_col-sm-5 wpb_column column_container vc_custom_1429092087166">	
 		<div class="wpb_wrapper">
 			
 	<div class="wpb_text_column wpb_content_element  text-centered-under-sm">
@@ -466,29 +424,33 @@ could result in a ban from the site.</p>
 		</div> 
 	</div> 
 </div></div></div>
-
+<!--
 <link rel="stylesheet" id="flexslider-css" href="js/flexslider.css" type="text/css" media="screen">
-<script type="text/javascript" src="js/jquery_010.js"></script>
+<script type="text/javascript" src="js/jquery_010.js"></script>-->
 <script type="text/javascript">
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"http:\/\/umgroups.com\/cambodia\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
 /* ]]> */
 </script>
+<!--
 <script type="text/javascript" src="js/scripts.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
+     
+-->
+
 <script type="text/javascript">
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/cambodia\/?dtcareer=business-development&wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="js/woocommerce.js"></script>
-<script type="text/javascript" src="js/jquery_007.js"></script>
+<!--<script type="text/javascript" src="js/woocommerce.js"></script>
+<script type="text/javascript" src="js/jquery_007.js"></script>-->
 <script type="text/javascript">
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/cambodia\/?dtcareer=business-development&wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="js/cart-fragments.js"></script>
+<!--<script type="text/javascript" src="js/cart-fragments.js"></script>
 <script type="text/javascript" src="js/modernizr.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/myscript.js"></script>
@@ -498,10 +460,71 @@ var wc_cart_fragments_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php
 <script type="text/javascript" src="js/jquery_002.js"></script>
 <script type="text/javascript" src="js/career.js"></script>
 <script type="text/javascript" src="js/js_composer_front.js"></script>
-<script type="text/javascript" src="js/jquery_006.js"></script>
-<script type="text/javascript">                jQuery(document).ready(function(){
+<script type="text/javascript" src="js/jquery_006.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-});            </script>
+<script type="text/javascript">
+
+    var rows = document.getElementById('datatable').getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+    var current=0;
+
+onload = function() {
+	$("#btnapply").hide();
+	$("#previous").hide();
+
+    if (!document.getElementsByTagName || !document.createTextNode) return;
+
+    for (i = 0; i < rows.length; i++) 
+    {
+    			if (i!=current) {
+    			next=1;
+    		    rows[i].style.display='none';
+    			}
+
+
+    }	
+    //rows[current].style.display='block';
+    }
+
+function fnext() {
+
+	//var rows = document.getElementById('datatable').getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+    		    	current=current+1;
+    		    	console.log(rows[current].innerHTML);
+    		    	rows[current-1].style.display='none';
+    		    	rows[current].style.display='inline';
+    		    	rows[current].removeAttribute('style');
+	if (current==(rows.length-1)) {
+		$("#next").hide();
+		$("#previous").show();
+			$("#btnapply").show();
+	}
+	if (current>0) {
+		$("#previous").show();
+	}
+
+}
+
+function fback() {
+
+    		    	current=current-1;
+    		    	console.log(current);
+    		    	rows[current+1].style.display='none';
+    		    	rows[current].style.display='block';
+    		    	rows[current].removeAttribute('style');
+  		if (current<(rows.length+1)) {
+			$("#btnapply").hide();
+			$("#next").show();
+	}
+		if (current<1) {
+		$("#previous").hide();
+	}
+
+}
+</script>
+
+   
+
 <style type="text/css">#megamenu_bg_12906 {background: url(http://umgroups.com/cambodia/wp-content/uploads/2015/11/mega-menus-bg-haevy02.jpg)   no-repeat;}
 @media ( max-width:990px ) { #megamenu_bg_12906 {background: none;}}
 .vc_custom_1429088509675{background-color: #ffffff ;}
@@ -512,7 +535,7 @@ var wc_cart_fragments_params = {"ajax_url":"\/cambodia\/wp-admin\/admin-ajax.php
 .vc_custom_1447923789402{margin-top: 12px !important;}
 .vc_custom_1429520259737{margin-top: -11px !important;}
 .vc_custom_1429079722061{margin-bottom: 20px !important;}
-#section-1 h2:after,#section-1 h2:before{background-color:#db9224;}
+#section-1 h2:after,#section-1 h2:before{background-color:#db9224;}		
 .vc_custom_1429079752030{margin-bottom: 20px !important;}
 #section-2 h2:after,#section-2 h2:before{background-color:#db9224;}
 .vc_custom_1429079765991{margin-bottom: 20px !important;}

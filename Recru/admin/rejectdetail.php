@@ -84,8 +84,8 @@ $result = $conn->query($sql);
                             </div>
                         </div>
                         <!-- Pls Remove -->
-                        <div style="height:700px;">
-						<form action="unprocessdetail_action.php" method="post">
+                        <div style="height:auto;">
+						<form action="reject_action.php" method="post">
 						  <table id="datatable" class="table table-striped table-bordered">
                             <tbody>
 									<?php
@@ -359,8 +359,10 @@ $result = $conn->query($sql);
 										
 										<tr>
 											
-											<td  colspan="2" align="center"><span><input type="submit" name="btnsubmit" value="Move To Unprocessed" class="btn btn-success"></span> &nbsp;&nbsp;&nbsp;<span><a class="btn btn-success" href="rejectedarchieve.php?filename=<?php echo $row['Attachment']?>">
-																		Cancel</a></span></td>
+											<td  colspan="2" align="center"><span>
+											<a class="btn btn-warning" href="rejectedarchieve.php?filename=<?php echo $row['Attachment']?>"> Cancel</a>&nbsp;&nbsp;&nbsp;<span>
+											<input type="submit" name="btnsubmit" value="Move To Unprocessed" class="btn btn-success"></span>
+																		</span></td>
 											
 										</tr>
 										
